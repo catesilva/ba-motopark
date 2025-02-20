@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
     
     // Set recipient email (you can change this to your own email address)
-    $to = "bamotopark.info@gmail.com";  // Change to your own email
+    $to = "bamotopark.info@gmail.com, canwegrabacoffee@gmail.com";  // Change to your own email
     
     // Set email subject
     $email_subject = "New Message from $name: $subject";
