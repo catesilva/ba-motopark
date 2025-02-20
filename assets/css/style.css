@@ -1031,7 +1031,6 @@ hr {
     float: left;
     display: bloack;
     width: 126px;
-    height: 100%;
 }
 
 .header-transparent {
@@ -1172,11 +1171,17 @@ hr {
     .slider-height {
         height: 600px;
     }
+     .main-header .logo{
+        width: 42px;
+    }
 }
 
 @media (max-width: 575px) {
     .slider-height {
         height: 540px;
+    }
+     .main-header .logo{
+         width: 42px;
     }
 }
 
