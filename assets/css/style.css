@@ -2107,7 +2107,8 @@ hr {
 
 
 .footer-bottom-area  {
-   background-color: #2b2c2f;
+   background-color: #0B0016;
+   border-top:1px dashed rgba(255, 255, 255, 0.2);
 }
 
 .footer-bottom-area .footer-border {
