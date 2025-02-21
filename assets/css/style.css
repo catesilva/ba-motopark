@@ -1031,6 +1031,8 @@ hr {
     float: left;
     display: bloack;
     width: 126px;
+    position: relative; /* Added to position it correctly in the stacking context */
+    z-index: 100; 
 }
 
 .header-transparent {
@@ -1067,7 +1069,8 @@ hr {
     position: absolute;
     right: 0px;
     width: 100%;
-    z-index: 99;
+    top:0;
+    z-index: 99; /* Lower z-index so it's under the logo */
 }
 
 .header-btn {
@@ -1229,6 +1232,12 @@ hr {
 .slider-bg3 {
     background-image: url(../img/bruna-antunes-competing-jump.jpg);
     background-position: center %; /* Ajusta a posição vertical */
+    background-size: cover;
+}
+
+.slider-bg4 {
+    background-image: url(../img/bruna-antunes-with-student.png);
+    background-position: center 20%; /* Ajusta a posição vertical */
     background-size: cover;
 }
 
@@ -4357,4 +4366,8 @@ del {
 
 .close-modal:hover {
    color: #ccc;
+}
+
+.section-tittle p.text-left {
+    text-align:left !important;
 }
